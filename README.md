@@ -1,6 +1,6 @@
 # Formal Conditions for Autonomous Normative Rule-Making
 
-This repository contains a research preprint that develops a formal,
+This repository presents a research preprint that develops a formal,
 proof-driven framework for autonomous normative decision-making.
 
 The work addresses a foundational question:
@@ -17,7 +17,7 @@ internal logic.
 
 The framework derives a closed normative logic from empirical constraints on
 agent viability and the causal structure of threats, rather than from normative
-axioms, interpretive judgment, or external evaluation.
+axioms, interpretive judgment, or external evaluation procedures.
 
 Regulatory intervention is modeled as a transformation of the space of viable
 action trajectories available to agents over time.
@@ -40,14 +40,21 @@ autonomous regulation.
 
 The formal framework is examined through controlled test scenarios in which the
 system generates regulatory outcomes without access to existing statutes,
-jurisdictions, or precedents. The tests confirm reproducibility, stability, and
-invariance of normative outcomes under equivalent empirical conditions.
+jurisdictions, or precedents. The experiments confirm reproducibility, stability,
+and invariance of normative outcomes under equivalent empirical conditions.
 
 ## Preprint
 
-- PDF: `paper/Formal_Conditions_for_Autonomous_Normative_Rule_Making.pdf`
-- SSRN: <add link here>
-- Zenodo DOI: <add link when available>
+- SSRN (PDF): https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6043174
+- GitHub PDF (optional): `paper/Formal_Conditions_for_Autonomous_Normative_Rule_Making.pdf`
+
+## Scope and limitations
+
+The framework applies to regulatory domains in which causal effects on agent
+viability can be formally described and empirically evaluated. The paper does
+not propose a concrete legal system or jurisdiction-specific implementation.
+Algorithmic and architectural details of tested implementations are treated as
+technical know-how and are not disclosed.
 
 ## Keywords
 
@@ -56,5 +63,5 @@ threat index, minimax regulation, AI governance.
 
 ## License
 
-The text of the paper is shared for academic and research use. See the license
-file for details.
+The text is shared for academic and research use. See the license file for
+details.
